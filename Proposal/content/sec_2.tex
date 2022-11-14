@@ -1,6 +1,7 @@
 \section{研究内容与技术路线}
 
-本课题拟实现一个基于法条的判案论点细粒度挖掘的司法辅助系统。
+本课题拟实现一个基于法条的判案论点细粒度挖掘的司法辅助系统，
+本论文的工作分为如下几个方面，如\cref{fig_1}所示。
 该系统首先细粒度解耦法律条文，
 根据法律条文获得分析案件所需的维度。
 在此基础上，以案情描述作为输入，基于细粒度解耦的法律条文，
@@ -12,7 +13,24 @@
 从而能够辅助司法从业者分析理解与决策。
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.4\linewidth]{fig_1.png}
+	% \includegraphics[width=0.4\linewidth]{fig_1.png}
+
+	\scriptsize
+	\tikzstyle{format}=[rectangle,draw,fill=white,font=\fontsize{12pt}{18pt}\selectfont]
+	\begin{tikzpicture}
+		\node[format] (law){法律条文细粒度解耦};
+		\node[format,right of=law,node distance=45mm] (argument){判案论点挖掘};
+		\node[format,right of=argument,node distance=45mm] (key_info){案情描述关键信息识别};
+		\node[format,below of=argument,node distance=15mm] (evidence){完备证据集预测};
+		\node[format,below of=key_info,node distance=15mm] (legal){司法下游任务};
+		\draw[->] (law)--(argument);
+		\draw[->] (argument)--(key_info);
+		\draw[->] (argument)--(evidence);
+		\draw[->] (key_info)--(evidence);
+		\draw[->] (key_info)--(legal);
+		% \draw[->](setkeycheck)--node[above]{Yes}(setsetflag);
+		% \draw[->](setkeycheck) --node[left]{No} (readtime);
+	\end{tikzpicture}
 	\caption{研究内容关系示意图}
 	\label{fig_1}
 \end{figure}
@@ -27,7 +45,7 @@
 就需要对法条进行细粒度解耦，
 并根据解耦的要素来指导进一步对案情描述的分析。
 
-\subsection{研究内容二：判案论点细粒度挖掘}
+\subsection{研究内容二：判案论点挖掘}
 对于一篇给定的案情描述，
 我们拟基于法律条文解耦得到的重要维度，
 自动总结出该案件的判案论点。
