@@ -1,23 +1,25 @@
 \contentsline {section}{\numberline {1}论文研究背景与意义}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}论文选题背景}{1}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}学术界理论研究背景}{1}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}项目研究背景}{1}{subsubsection.1.1.2}%
-\contentsline {subsubsection}{\numberline {1.1.3}实际应用背景}{1}{subsubsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.2}研究现状概述}{1}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}研究目标与创新性}{1}{subsection.1.3}%
-\contentsline {section}{\numberline {2}研究内容与技术路线}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}研究内容一：法律条文细粒度解耦}{2}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}研究内容二：判案论点挖掘}{2}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}研究内容三：司法证据预测与生成}{2}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}基于注意力机制和强化学习的判案论点挖掘}{3}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}基于文本聚类的司法证据关联和预测}{4}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}基于序列到序列模型的司法证据生成}{4}{subsection.2.6}%
-\contentsline {section}{\numberline {3}论文工作安排计划}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}工作进度安排}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}论文工作基础}{5}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}数据集}{5}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}调研工作}{6}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}现有实验结果}{6}{subsubsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.3}可能遇到的问题以及解决途径}{6}{subsection.3.3}%
-\contentsline {section}{主要参考文献}{8}{section*.12}%
+\contentsline {subsubsection}{\numberline {1.1.1}实际应用背景}{1}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}学术界理论研究背景}{1}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}研究现状概述}{2}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}司法智能化的研究现状}{2}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}案情关键信息识别相关研究现状}{3}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}司法证据相关研究现状}{4}{subsubsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.3}研究目标与创新性}{5}{subsection.1.3}%
+\contentsline {section}{\numberline {2}研究内容与技术路线}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}研究内容一：法律条文细粒度解耦}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}研究内容二：基于法律条文的案情关键信息识别与关联}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}研究内容三：基于法律条文的司法证据预测与生成}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}基于注意力机制和强化学习的判案论点挖掘}{8}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}基于文本聚类的司法证据关联和预测}{9}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}基于序列到序列模型的司法证据生成}{9}{subsection.2.6}%
+\contentsline {section}{\numberline {3}论文工作安排计划}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}工作进度安排}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}论文工作基础}{10}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}数据集}{10}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}调研工作}{11}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}现有实验结果}{11}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}可能遇到的问题以及解决途径}{11}{subsection.3.3}%
+\contentsline {section}{主要参考文献}{13}{section*.17}%
 \contentsfinish 
